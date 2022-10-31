@@ -15,12 +15,12 @@ let luckyNumber=25; console.log(luckyNumber);
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-//console.log('My name is'fullName 'and I think' luckyNumbeer 'is a winner');
 console.log('My name is', fullName, 'and i think', luckyNumber, 'is a winner' );
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-//let adventurous= true; console.log(adventous);
+let adventurous= true; 
+console.log(adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food='pho'; console.log(food);
@@ -34,7 +34,17 @@ pets += 2;  console.log(pets);
 const allowedPets= 10; console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
+let gears= 5;
+let neededGears = 6; 
+if (gears=== neededGears){ 
+    console.log(adventurous)
+}// if the gears meets the neededGears we can go on adventure. 
+if (adventurous == true ) { console.log('Adventures are great');
+    
+}// adventurous is true say " Adventures are great!"
+else{
+console.log('How about we stay home?');
+}// not adventurous 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
@@ -62,4 +72,5 @@ const allowedPets= 10; console.log(allowedPets);
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-console.log(allowedPets);
+
+ 
