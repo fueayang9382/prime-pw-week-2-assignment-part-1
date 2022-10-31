@@ -15,18 +15,21 @@ let luckyNumber=25;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
+//console.log('My name is'fullName 'and I think' luckyNumbeer 'is a winner');
+console.log('My name is', fullName, 'and i think', luckyNumber, 'is a winner' );
+
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-
+let adventurous= true; 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-
+let food='pho'; 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets=1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
-// 11 - Add two pets to your `pets` variable
-
-// 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+let friendsPets= 1;
+// 11 - Add two pets to your `pets` variable pets ++; adds one to pets, pets--;
+pets += 2; 
+// 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice.
+const allowedPets= 10; 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
@@ -57,4 +60,4 @@ let luckyNumber=25;
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+console.log(allowedPets);
