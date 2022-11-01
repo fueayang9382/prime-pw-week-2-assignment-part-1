@@ -56,12 +56,15 @@ else if ( gears < neededGears){
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-
+//compound conditional has these elements && ||.  
+// and && both side must be true.
+//or || either side can be true. 
+//example: else if ( x1 == x2 || x3 == x4){console.log('text')}
 //if you luckyNumber is 2 'Roll the dice.
 // if your luckyNumber is > 2 skip your turn.
 // if your luckyNumber is < 2 roll two times. 
 
- let luckNumber = 1;
+ let luckNumber = 7;
 
 if (luckNumber === 2) {
     console.log('Roll the dice!');
@@ -71,9 +74,11 @@ else if( luckNumber > 2) {
     console.log('skip your turn');}
 
 
-else if (luckNumber < 2 ){
-    console.log('roll two times ');}
+//else if (luckNumber < 2 ){
+    //console.log('roll two times ');}
 
+else if (luckNumber == 5 || luckNumber <= 2 ){
+console.log('roll two times ');}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
