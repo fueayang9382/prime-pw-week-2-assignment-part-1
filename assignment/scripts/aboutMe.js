@@ -34,17 +34,25 @@ pets += 2;  console.log(pets);
 const allowedPets= 10; console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-let gears= 5;
+
+// if we have the right amount of gear, we can go on adventure 'adventures are great'
+//if we have too much gears, we leave some behind. 'need to leave some gears behind'
+//if we dont have enough gear, we probably shouldn't go. 'How about we stay home.' 
+
+let gears= 6;
 let neededGears = 6; 
-if (neededGears === gears){ 
-    console.log(adventurous)
-}// if the gears meets the neededGears we can go on adventure. 
-if (adventurous == true ) { console.log('Adventures are great');
-    
-}// adventurous is true say " Adventures are great!"
-else{
-console.log('How about we stay home?');
-}// not adventurous 
+if (neededGears === gears){
+    console.log('adventures are great')
+}
+
+else if( gears > neededGears ){
+   console.log('need to leave some gear behind');
+}
+
+else if ( gears < neededGears){
+    console.log('How about we stay home');
+}
+
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
