@@ -27,7 +27,7 @@ let food='pho'; console.log(food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets=1; console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets= 1; console.log(friendsPets);
+let friendsPets= 2; console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable pets ++; adds one to pets, pets--;
 pets += 2;  console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice.
@@ -39,7 +39,7 @@ const allowedPets= 10; console.log(allowedPets);
 //if we have too much gears, we leave some behind. 'need to leave some gears behind'
 //if we dont have enough gear, we probably shouldn't go. 'How about we stay home.' 
 
-let gears= 6;
+let gears= 5;
 let neededGears = 6; 
 if (neededGears === gears){
     console.log('adventures are great')
@@ -49,7 +49,7 @@ else if( gears > neededGears ){
    console.log('need to leave some gear behind');
 }
 
-else if ( gears < neededGears){
+else  {
     console.log('How about we stay home');
 }
 
@@ -66,18 +66,18 @@ else if ( gears < neededGears){
 
  let luckNumber = 7;
 
-if (luckNumber === 2) {
+if (luckNumber === 2 || luckNumber === 7) {
     console.log('Roll the dice!');
 }
 
-else if( luckNumber > 2) {
+else if( luckNumber > 8 && luckNumber == 13 ) {
     console.log('skip your turn');}
 
 
 //else if (luckNumber < 2 ){
     //console.log('roll two times ');}
 
-else if (luckNumber == 5 || luckNumber <= 2 ){
+else  {
 console.log('roll two times ');}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -101,7 +101,7 @@ else if( pets ==maxAllowedPets ){
     console.log('I have enough pets');
 }
 
-else{
+else {
     console.log('oh no I have too many pets');
 }
 // STRETCH GOALS:
@@ -111,6 +111,14 @@ else{
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+
+let mostPets = if (pets > friendsPets || friendsPets > pets)
+console.log(mostPets);
+
+
+
+
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
