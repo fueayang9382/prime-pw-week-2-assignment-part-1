@@ -36,7 +36,7 @@ const allowedPets= 10; console.log(allowedPets);
 // if it's not true, console log "How about we stay home?"
 let gears= 5;
 let neededGears = 6; 
-if (gears=== neededGears){ 
+if (neededGears === gears){ 
     console.log(adventurous)
 }// if the gears meets the neededGears we can go on adventure. 
 if (adventurous == true ) { console.log('Adventures are great');
@@ -48,6 +48,24 @@ console.log('How about we stay home?');
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+
+//if you luckyNumber is 2 'Roll the dice.
+// if your luckyNumber is > 2 skip your turn.
+// if your luckyNumber is < 2 roll two times. 
+
+ let luckNumber = 1;
+
+if (luckNumber === 2) {
+    console.log('Roll the dice!');
+}
+
+else if( luckNumber > 2) {
+    console.log('skip your turn');}
+
+
+else if (luckNumber < 2 ){
+    console.log('roll two times ');}
+
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
