@@ -86,6 +86,24 @@ console.log('roll two times ');}
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
+//If I have less than allowedPets, 'I can have more pets'
+//If I have the max amount as alowedPets, 'I have enough pets'
+//If i have over the amount of allowedPets, " Oh no I  have too many pets"
+
+pets= 10;
+ maxAllowedPets =10;
+
+if (pets < maxAllowedPets ) {
+    console.log('I can have more pets');
+}
+
+else if( pets ==maxAllowedPets ){
+    console.log('I have enough pets');
+}
+
+else{
+    console.log('oh no I have too many pets');
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
