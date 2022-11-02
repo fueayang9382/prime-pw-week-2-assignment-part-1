@@ -173,12 +173,17 @@ switch ( 2 ) {
     default: console.log('have no match. ');
 }
 
-
-
-
-
-
-
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+// 18 "ternary operator"- Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
+// example: condition ? expr1 : expr2
 
+adventures = false; 
+let result = adventures == true || adventures == false ? 'adventures are great' : 'How about we stay home?'
+
+console.log(result);
+
+
+//console.log((adventures == true || adventures == false) ? 'adventures are great' : 'How about we stay home?');
+// ^^ this was my original work but did a few changes to what you see now that run on #18. 
