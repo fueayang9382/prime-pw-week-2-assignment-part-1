@@ -39,19 +39,40 @@ const allowedPets= 10; console.log(allowedPets);
 //if we have too much gears, we leave some behind. 'need to leave some gears behind'
 //if we dont have enough gear, we probably shouldn't go. 'How about we stay home.' 
 
-let gears= 5;
-let neededGears = 6; 
-if (neededGears === gears){
-    console.log('adventures are great')
+let adventures= true;
+
+if(adventures == true){
+    console.log('Adventures are great!')
 }
 
-else if( gears > neededGears ){
-   console.log('need to leave some gear behind');
+else if (adventures != true){
+    console.log('How about we stay home?');
 }
 
-else  {
-    console.log('How about we stay home');
-}
+
+
+
+
+
+
+
+
+
+
+
+//let gears= 5;
+//let neededGears = 6; 
+//if (neededGears === gears){
+    //console.log('adventures are great')
+//}
+
+//else if( gears > neededGears ){
+   //console.log('need to leave some gear behind');
+//}
+
+//else  {
+    //console.log('How about we stay home');
+//}
 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
@@ -60,13 +81,14 @@ else  {
 // and && both side must be true.
 //or || either side can be true. 
 //example: else if ( x1 == x2 || x3 == x4){console.log('text')}
+
 //if you luckyNumber is 2 'Roll the dice.
 // if your luckyNumber is > 2 skip your turn.
 // if your luckyNumber is < 2 roll two times. 
 
- let luckNumber = 7;
+  let luckNumber = 7;
 
-if (luckNumber === 2 || luckNumber === 7) {
+if (luckNumber === 2 ||  luckNumber=== 7) {
     console.log('Roll the dice!');
 }
 
@@ -74,8 +96,6 @@ else if( luckNumber > 8 && luckNumber == 13 ) {
     console.log('skip your turn');}
 
 
-//else if (luckNumber < 2 ){
-    //console.log('roll two times ');}
 
 else  {
 console.log('roll two times ');}
@@ -90,7 +110,7 @@ console.log('roll two times ');}
 //If I have the max amount as alowedPets, 'I have enough pets'
 //If i have over the amount of allowedPets, " Oh no I  have too many pets"
 
-pets= 10;
+pets= 1;
  maxAllowedPets =10;
 
 if (pets < maxAllowedPets ) {
@@ -112,12 +132,24 @@ else {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
-let mostPets = if (pets > friendsPets || friendsPets > pets)
+let myPets= 1;
+let myFriendsPets= 2; 
+let mostPets;
+ 
+if(myPets> myFriendsPets){
+    mostPets = myPets; 
+}
+
+
+else if(myPets < myFriendsPets){
+mostPets = myFriendsPets; 
+}
+
+else{ mostPets = 'have the same amount of pets'; 
+    
+}
+ 
 console.log(mostPets);
-
-
-
-
 
 
 // 17 - Write a *switch* statement that logs:
@@ -130,4 +162,5 @@ console.log(mostPets);
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 
- 
+
+
