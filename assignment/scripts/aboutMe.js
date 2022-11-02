@@ -157,11 +157,28 @@ console.log(mostPets);
 
 
 
+switch ( 2 ) {
+    case 1:
+    console.log('First is the worst.');
+    break;
+
+    case 2: 
+    console.log('Second is the best.');
+    break;
+
+    case 3: 
+    console.log('third is the one with the polka dot dress.');
+    break;
+
+    default: console.log('have no match. ');
+}
+
+
+
+
 
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
-
 
 
