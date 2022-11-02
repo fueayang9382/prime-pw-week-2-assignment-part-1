@@ -49,17 +49,6 @@ else if (adventures != true){
     console.log('How about we stay home?');
 }
 
-
-
-
-
-
-
-
-
-
-
-
 //let gears= 5;
 //let neededGears = 6; 
 //if (neededGears === gears){
@@ -75,6 +64,9 @@ else if (adventures != true){
 //}
 
 
+
+
+
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 //compound conditional has these elements && ||.  
@@ -82,23 +74,27 @@ else if (adventures != true){
 //or || either side can be true. 
 //example: else if ( x1 == x2 || x3 == x4){console.log('text')}
 
-//if you luckyNumber is 2 'Roll the dice.
-// if your luckyNumber is > 2 skip your turn.
-// if your luckyNumber is < 2 roll two times. 
+luckynumber = 2; 
 
-  let luckNumber = 7;
-
-if (luckNumber === 2 ||  luckNumber=== 7) {
+if(luckynumber == 2 && adventures == true ) {
     console.log('Roll the dice!');
 }
 
-else if( luckNumber > 8 && luckNumber == 13 ) {
-    console.log('skip your turn');}
+else {console.log('Do not roll the dice.' );}
 
 
 
-else  {
-console.log('roll two times ');}
+//let luckNumber = 7;
+
+//if (luckNumber === 2 ||  luckNumber=== 7) {
+    //console.log('Roll the dice!');
+//}
+
+//else if( luckNumber > 8 && luckNumber == 13 ) {
+    //console.log('skip your turn');}
+
+//else  {
+//console.log('roll two times ');}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -132,7 +128,7 @@ else {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
-let myPets= 1;
+let myPets= 5;
 let myFriendsPets= 2; 
 let mostPets;
  
@@ -158,6 +154,11 @@ console.log(mostPets);
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
+
+
+
+
+
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
